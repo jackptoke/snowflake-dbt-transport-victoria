@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: transport_vic_bronze
+    database: transport_victoria
+    schema: bronze
+    tables:
+      - name: routes
+      - name: stops
+      - name: stop_times
+      - name: trips
+      - name: trip_updates
